@@ -1,0 +1,6 @@
+Pages/HomePage.class
+Pages/BasePage.class
+Constants/PageConstants.class
+Pages/MailPage.class
+Constants/PageLocators.class
+Constants/ErrorMessages.class

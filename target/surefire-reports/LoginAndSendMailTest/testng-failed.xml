@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [LoginAndSendMailTest]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="LoginAndSendMailTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="verifyThatUserIsLoggedIn"/>
+          <include name="openSite"/>
+          <include name="verifyThatUserEmailIsSended"/>
+        </methods>
+      </class> <!-- LoginAndSendMailTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [LoginAndSendMailTest] -->
